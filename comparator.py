@@ -1,11 +1,12 @@
-valor_a = float(input("Digite o Valor A: "))
-valor_b = float(input("Digite o Valor B: "))
+value_a = float(input("Type the first value: "))
+value_b = float(input("Type the second value: "))
+value_c = float(input("Type the third value: ")) 
 
-if valor_a > valor_b:
-    print("A É Maior")
-elif valor_a < valor_b:
-    print("B É Maior") 
-else:
-    print("São Iguais")
-
-    
+if value_a > value_b and value_a > value_c:
+    print("First value is bigger")
+elif value_b > value_a and value_b > value_c:
+    print("Second value is bigger") 
+elif value_c > value_a and value_c > value_b:
+    print("Third value is bigger") 
+else: 
+    print("All values are equal")
